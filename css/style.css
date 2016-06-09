@@ -1,0 +1,61 @@
+/* NAVBAR CSS BEGIN */
+    .nav li {
+      line-height: 40px;
+      padding:20px;
+      list-style: none;
+      display: inline-block;
+      background-color: white;
+    }
+
+    /* Select all child links in a nav element */
+    .nav a {
+      text-decoration: none;
+    }
+
+    .navbar-outside {
+      display:block;
+      background-color: #313732;
+      height:80px;
+    }
+
+    .navbar {
+      display:block;
+      background-color:#800000;
+      height:80px;
+      margin:0 auto;
+      min-width:500px;
+      max-width:820px;
+    }
+
+    .navigation li {
+      padding: 30px 15px;
+      list-style: none;
+      text-decoration: none;
+      float:left;
+      height: 20px;
+    }
+
+    .navigation li a {
+      text-decoration: none;
+      color:#b86a6a;
+    }
+
+    .navigation li:hover {
+      background-color: #f07960;
+    }
+    
+    .active {
+        background-color: #aadaac;
+        color: #ff6464;
+    }
+    /* END NAVBAR CSS */
+    
+    /* FOOTER */
+    .footer{
+      min-width:600px;
+      max-width:820px;
+      margin:0 auto;
+      background-color:#79db84;
+      height:50px;
+      clear:both;
+    }
